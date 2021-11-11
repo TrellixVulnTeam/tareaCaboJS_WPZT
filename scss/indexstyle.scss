@@ -1,0 +1,33 @@
+$colorRojo: #F40A0A;
+
+#activo{
+	background-color: $colorRojo;
+}
+
+h1{
+	text-align: center;
+	color: $colorRojo;
+
+}
+ 
+ 
+.flex-footer{
+	text-align: center;
+	background-color: #DB3636;
+  	bottom: 0;
+}
+
+.cajaFlex{
+	display: flex;
+	//flex-direction: row;
+	justify-content: space-evenly;
+}
+.card:hover{
+	transform: scale(1.1);
+	transition: 1.5s;
+}
+footer{
+	position: fixed;
+	width: 100%;
+  	bottom: 0; 
+}

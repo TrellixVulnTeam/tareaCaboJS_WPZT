@@ -1,0 +1,24 @@
+#activo {
+  background-color: #F40A0A; }
+
+h1 {
+  text-align: center;
+  color: #F40A0A; }
+
+.flex-footer {
+  text-align: center;
+  background-color: #DB3636;
+  bottom: 0; }
+
+.cajaFlex {
+  display: flex;
+  justify-content: space-evenly; }
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 1.5s; }
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
