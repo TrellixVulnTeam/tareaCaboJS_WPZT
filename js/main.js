@@ -44,3 +44,7 @@ jugadora3.presentation();
 for(const posicion in jugadora3){
 	console.log(jugadora3[posicion]);
 }
+
+const array = [jugadora1,jugadora2,jugadora3];
+array.push (new jugadoraLhd("Lucia Gomez",18, "Central"));
+console.log(array);
